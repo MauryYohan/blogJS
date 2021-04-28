@@ -25,4 +25,15 @@
         color: var(--primary);
         background: white;
     }
+    &-danger {
+        border: 1px solid var(--error);
+        color: var(--error);
+        background: white;
+    }
+}
+
+.text {
+    &-error {
+        color: var(--error);
+    }
 }
